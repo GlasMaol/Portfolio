@@ -43,7 +43,7 @@ function FrontendPage() {
                         once: true,
                     }}
                 >
-                    Resan till Frontändare
+                    Resan till Frontendare
                 </motion.h2>
 
                 <section className='frontendGrid-one'>
