@@ -43,7 +43,7 @@ function ProjectsPage() {
                         once: true,
                     }}
                     >
-                        <img className='image' src="./src/assets/AIbild2.png" alt="" />
+                        <img className='image' src="./AIbild2.png" alt="design concept picture" />
                     </motion.article>
                     <motion.article
                     initial={{
@@ -88,7 +88,7 @@ function ProjectsPage() {
                         once: true,
                     }}
                     >
-                        <img className='image' src="./src/assets/as-skisser.jpg" alt="" />
+                        <img className='image' src="./as-skisser.jpg" alt="drawings" />
                     </motion.article>
 
                     <motion.article
@@ -133,7 +133,7 @@ function ProjectsPage() {
                         once: true,
                     }}
                     >
-                        <img className='image' src="./src/assets/as-figma-1.png" alt="" />
+                        <img className='image' src="./as-figma-1.png" alt="figma designs picture" />
                     </motion.article>
 
                     <motion.article
@@ -177,7 +177,7 @@ function ProjectsPage() {
                         once: true,
                     }}
                     >
-                        <img className='image' src="./src/assets/as-figma-2.png" alt="" />
+                        <img className='image' src="./as-figma-2.png" alt="figma design picture" />
                     </motion.article>
 
                     <motion.article

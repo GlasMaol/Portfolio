@@ -42,7 +42,7 @@ function AboutPage() {
                         margin: "-50px",
                         once: true,
                     }}
-                    className='om-image image' src="./src/assets/om169.jpg" alt="" />
+                    className='om-image image' src="./om169.JPG" alt="picture of a professional wed designer" />
                     <motion.p
                     initial={{
                         opacity: 0,

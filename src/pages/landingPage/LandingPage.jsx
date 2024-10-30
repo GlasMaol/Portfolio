@@ -5,7 +5,6 @@ import Footer from '../../components/footer/Footer'
 import '../landingPage/landingPage.css'
 import LandingHeader from '../../components/landingHeader/LandingHeader'
 import { motion } from 'framer-motion'
-import htmlLogo from '../../assets/html-logo.png'
 
 function LandingPage() {
     const frontendSectionRef = useRef(null);
@@ -132,12 +131,12 @@ function LandingPage() {
                             once: true,
                         }}
                     >
-                        <div><img src={htmlLogo} alt="HTML Logo" className='logoImage' /></div>
-                        <div><img src="./src/assets/CSS-Logo.png" alt="CSS Logo" className='logoImage' /></div>
+                        <div><img src="./html-logo.png" alt="HTML Logo" className='logoImage' /></div>
+                        <div><img src="./CSS-Logo.png" alt="CSS Logo" className='logoImage' /></div>
                         <div><img src="./JavaScript-logo.png" alt="JavaScript Logo" className='logoImage' /></div>
-                        <div><img src="./src/assets/figma-logo.png" alt="Figma Logo" className='logoImage' /></div>
-                        <div><img src="./src/assets/React-icon.png" alt="React Logo" className='logoImage' /></div>
-                        <div><img src="./src/assets/Node_logo.svg.png" alt="Node.js Logo" className='logoImage' /></div>
+                        <div><img src="./figma-logo.png" alt="Figma Logo" className='logoImage' /></div>
+                        <div><img src="./React-icon.png" alt="React Logo" className='logoImage' /></div>
+                        <div><img src="./Node_logo.svg.png" alt="Node.js Logo" className='logoImage' /></div>
                     </motion.article>
                 </motion.section>
 
@@ -194,7 +193,7 @@ function LandingPage() {
                         </motion.article>
 
                         <article className='rightArticle'>
-                            <img className='projectPic' src="./src/assets/alpinesport-main.png" alt="picture of website" />
+                            <img className='projectPic' src="./alpinesport-main.png" alt="picture of website" />
                         </article>
                     </motion.section>
 
@@ -241,7 +240,7 @@ function LandingPage() {
                             </p>
                         </motion.article>
                         <article className="rightArticle">
-                            <img className='omPic' src="./src/assets/om11.jpg" alt="picture of me" />
+                            <img className='omPic' src="./om11.JPG" alt="picture of me" />
                         </article>
                     </motion.section>
 

@@ -91,7 +91,7 @@ function FrontendPage() {
                             once: true,
                         }}
                     >
-                        <img className='image' src="src\assets\spectrum.jpg" alt="picture of a zx spectrum computer" />
+                        <img className='image' src="./spectrum.jpg" alt="picture of a zx spectrum computer" />
                     </motion.article>
                 </section>
                 <section className='frontendGrid-two'>
@@ -113,7 +113,7 @@ function FrontendPage() {
                             once: true,
                         }}
                     >
-                        <img className='image' src="src\assets\modern.jpg" alt="" />
+                        <img className='image' src="./modern.jpg" alt="ai generated picture" />
                     </motion.article>
                     <article>
                         <motion.p className='text'

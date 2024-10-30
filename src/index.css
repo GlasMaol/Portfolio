@@ -22,7 +22,7 @@
 
 body {
   font: 100% Roboto, sans-serif;
-  background: url(./assets/backgroundOne.jpg) 50% 50% no-repeat;
+  background: url(./backgroundOne.jpg) 50% 50% no-repeat;
   background-size: cover;
   background-attachment: fixed;
   min-height: 100vh;

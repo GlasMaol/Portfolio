@@ -36,7 +36,7 @@ function Footer() {
                     ease: "easeIn"
                 }}
                 href="https://www.linkedin.com/in/alistairmccann/" target="_blank" rel="noopener noreferrer">
-                    <img className='linkedinLogo' src="./src/assets/Linkedin-logo.png" alt="Linkedin logo" />
+                    <img className='linkedinLogo' src="./Linkedin-Logo.png" alt="Linkedin logo" />
                 </motion.a>
                 <motion.a
                 whileHover={{
@@ -50,7 +50,7 @@ function Footer() {
                     ease: "easeIn"
                 }}
                 href="https://github.com/GlasMaol" target="_blank" rel="noopener noreferrer">
-                    <img className='githubLogo' src="./src/assets/Github-logo.png" alt="Github logo" />
+                    <img className='githubLogo' src="./Github-logo.png" alt="Github logo" />
                 </motion.a>
             </section>
         </footer>
