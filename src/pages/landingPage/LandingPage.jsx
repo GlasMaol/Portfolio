@@ -5,6 +5,7 @@ import Footer from '../../components/footer/Footer'
 import '../landingPage/landingPage.css'
 import LandingHeader from '../../components/landingHeader/LandingHeader'
 import { motion } from 'framer-motion'
+import htmlLogo from '../../assets/html-logo.png'
 
 function LandingPage() {
     const frontendSectionRef = useRef(null);
@@ -131,7 +132,7 @@ function LandingPage() {
                             once: true,
                         }}
                     >
-                        <div><img src="./src/assets/html-logo.png" alt="HTML Logo" className='logoImage' /></div>
+                        <div><img src={htmlLogo} alt="HTML Logo" className='logoImage' /></div>
                         <div><img src="./src/assets/CSS-Logo.png" alt="CSS Logo" className='logoImage' /></div>
                         <div><img src="./src/assets/Javascript-logo.png" alt="JavaScript Logo" className='logoImage' /></div>
                         <div><img src="./src/assets/figma-logo.png" alt="Figma Logo" className='logoImage' /></div>
