@@ -134,7 +134,7 @@ function LandingPage() {
                     >
                         <div><img src={htmlLogo} alt="HTML Logo" className='logoImage' /></div>
                         <div><img src="./src/assets/CSS-Logo.png" alt="CSS Logo" className='logoImage' /></div>
-                        <div><img src="./src/assets/Javascript-logo.png" alt="JavaScript Logo" className='logoImage' /></div>
+                        <div><img src="./public/JavaScript-logo.png" alt="JavaScript Logo" className='logoImage' /></div>
                         <div><img src="./src/assets/figma-logo.png" alt="Figma Logo" className='logoImage' /></div>
                         <div><img src="./src/assets/React-icon.png" alt="React Logo" className='logoImage' /></div>
                         <div><img src="./src/assets/Node_logo.svg.png" alt="Node.js Logo" className='logoImage' /></div>
