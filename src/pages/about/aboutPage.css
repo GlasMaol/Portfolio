@@ -1,0 +1,24 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-container {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+}
+
+.om-title {
+    margin-top: 2rem;
+    font-family: var(--title-font-family);
+    color: var(--h1-text-colour);
+}
+
+.om-image {
+    max-width: 940px;
+    margin-bottom: 2rem;
+}

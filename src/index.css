@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+
+:root {
+  --h1-text-colour: #DECFB2;
+  --h3-text-colour: #11354D;
+  --p-text-colour: #BBCCC6;
+  --title-font-family: 'montserrat', sans serif;
+  --h1-title-font-size: ;
+  --h3-title-font-size: ;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  width: 100%;
+  margin: 0 auto;
+}
+
+body {
+  font: 100% Roboto, sans-serif;
+  background: url(./assets/backgroundOne.jpg) 50% 50% no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+
+  header,
+  footer {
+    flex-direction: column;
+    position: relative;
+  }
+
+  .titleCont {
+    max-width: 230px;
+    text-align: right;
+    transform: translateY(-300px);
+  }
+
+  .contentTitle-container {
+    position: absolute;
+    left: 35%;
+    top: 35%;
+  }
+
+  .h1TitleText {
+    font-size: 2.5em;
+  }
+
+  .h2TitleText {
+    font-size: 1.2em;
+  }
+
+  .frontendSection,
+  .projektOmSection,
+  .projectSection,
+  .omSection {
+    flex-direction: column;
+  }
+
+  .logoGrid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .logoImage {
+    max-width: 70px;
+  }
+
+  .leftArticle,
+  .rightArticle {
+    width: 100%;
+  }
+
+  .projectPic {
+    padding: 0 2rem 2rem 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .frontendDesc, .projektOmSection, .glassEffect {
+    margin: 0;
+  }
+  .frontendSection, .glassEffectDark {
+    padding: 0;
+  }
+  .projectSection, .omSection {
+    padding: 10px;
+  }
+  .omSection {
+    margin-top: 4rem;
+  }
+}

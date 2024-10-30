@@ -1,0 +1,25 @@
+.projects-container {
+    display: grid;
+    gap: 2rem;
+    justify-items: center;
+    padding: 2rem;
+}
+
+.project-title {
+    font-family: var(--title-font-family);
+    color: var(--h1-text-colour);
+    text-align: center;
+}
+
+.project-section {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@media (max-width: 768px) {
+    .project-section {
+        padding: 1rem;
+    }
+}
